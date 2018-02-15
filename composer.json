@@ -1,0 +1,27 @@
+{
+  "name": "qqlogin/qqlogin",
+  "type": "library",
+  "keywords": [
+    "QQLogin"
+  ],
+  "homepage": "http://www.kanlai.com.cn",
+  "license": "MIT",
+  "description": "QQ互联",
+  "authors": [
+    {
+      "name": "380943047",
+      "email": "380943047@qq.com",
+      "homepage": "http://www.kanlai.com.cn",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7"
+  },
+  "autoload": {
+    "psr-4": {
+      "QQLogin\\": "./"
+    }
+  },
+  "minimum-stability": "dev"
+}
